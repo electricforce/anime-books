@@ -32,11 +32,11 @@ const books = await getCollection("bookS");
 							return (
 								<article class="flex flex-col sm:flex-row gap-6 p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md hover:border-violet-500/50 hover:bg-white/10 hover:shadow-2xl hover:shadow-violet-500/10 transition-all duration-300 group">
 									<a
-										href={`/books/${id}`}
+										href={`/anime-books/books/${id}`}
 										class="w-full sm:w-40 shrink-0 overflow-hidden rounded-xl shadow-md group-hover:scale-[1.03] transition-transform duration-300"
 									>
 										<img
-											src={`/${cover_image}`}
+											src={`/anime-books/${cover_image}`}
 											alt={`Portada de ${title}`}
 											class="w-full h-auto object-cover rounded-xl aspect-[3/4]"
 											loading="lazy"
