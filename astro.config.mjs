@@ -8,6 +8,6 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
   },
-  site: "https://electricforce.github.io",
-  base: 'anime-books'
-});
+  site: 'https://radiata.netlify.app'
+}
+);

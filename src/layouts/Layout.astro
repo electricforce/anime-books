@@ -13,14 +13,16 @@ const { title = "AnimeBooks" } = Astro.props;
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 		<!-- Fuente moderna Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<div class="w-full max-w-6xl mx-auto px-4 py-8 md:py-16">
@@ -31,9 +33,13 @@ const { title = "AnimeBooks" } = Astro.props;
 
 <style>
 	@reference "../styles/global.css";
-	
+
 	html {
-		font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+		font-family:
+			"Outfit",
+			system-ui,
+			-apple-system,
+			sans-serif;
 		background: radial-gradient(circle at top, #13111c 0%, #07070a 100%);
 		color: #f3f4f6;
 		min-height: 100vh;
@@ -44,4 +50,3 @@ const { title = "AnimeBooks" } = Astro.props;
 		padding: 0;
 	}
 </style>
-

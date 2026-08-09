@@ -1,7 +1,7 @@
 ---
 title: "Kaoru Hana wa Rin to Saku"
 author: "Saka Mikami"
-cover_image: "Kaoru Hana wa Rin to Saku .png"
+cover_image: "Kaoru Hana wa Rin to Saku.png"
 volume: 12
 publishedDate: "2021-10-21"
 description: Rintaro Tsumugi es un estudiante de la Academia Chidori, una escuela para chicos con mala reputación...
